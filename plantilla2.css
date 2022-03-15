@@ -1,0 +1,762 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+.padre {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+header {
+  display: flex;
+  flex-flow: column nowrap;
+}
+hr {
+  background: rgb(255, 183, 1);
+}
+.menu {
+  background: rgba(20, 20, 20, 0.9);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 30px;
+}
+.logo {
+  flex: 1 1 auto;
+}
+.nav {
+  flex: 1 1 auto;
+  margin-left: 40px;
+  padding-left: 300px;
+  height: 80px;
+  display: flex;
+}
+.menu-items {
+  display: flex;
+  list-style: none;
+  line-height: 80px;
+}
+.menu-items a {
+  color: white;
+  text-transform: capitalize;
+  margin-right: 40px;
+  font-size: 20px;
+  display: block;
+}
+.menu-items a:hover {
+  color: gold;
+}
+.menu-items .off1 {
+  color: gold;
+}
+
+.btn-menu-1 {
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+  color: white;
+  font-size: 20px;
+}
+.imagen {
+  background: goldenrod;
+}
+.separador {
+  height: 20px;
+}
+.img1 {
+  border: 10px solid black;
+  border-radius: 100%;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.img2 {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 300px;
+  border: 10px solid black;
+  border-radius: 100%;
+  float: left;
+}
+.imagen p {
+  font-size: 80px;
+  margin-top: 30px;
+  margin: 30px;
+}
+#parrafo {
+  color: rgb(255, 255, 255);
+  margin-top: 90px;
+}
+#text {
+  color: rgb(0, 0, 0);
+}
+*h1 {
+  color: white;
+}
+#G {
+  font-size: 60px;
+}
+.negro {
+  color: black;
+}
+.botton a {
+  background: white;
+  color: rgb(0, 0, 0);
+  border: 1px transparent white;
+  font-size: 30px;
+}
+.botton a:hover {
+  background: rgb(10, 10, 10);
+  color: white;
+  border-radius: 20px;
+}
+.bot {
+  margin-left: 100px;
+  transition: all 0.7s;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section {
+  background: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 500px;
+}
+.section img {
+  border: 2px solid gold;
+  border-radius: 100%;
+}
+#p {
+  font-size: 50px;
+  margin-top: 30px;
+}
+#T {
+  font-size: 22px;
+}
+.articulos {
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+.flex {
+  flex: 1 1 100%;
+}
+.article {
+  margin: 10px;
+  flex: 1 1 30%;
+}
+.article img {
+  padding: 20px;
+  transition: all 0.5s ease;
+}
+.article img:hover {
+  transform: scale(0.9);
+}
+aside {
+  text-align: center;
+}
+section {
+  background: rgb(255, 208, 0);
+}
+.container-all {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.tittle {
+  font-size: 40px;
+  text-align: center;
+}
+.container-all img {
+  width: 250px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.container-all p {
+  font-weight: 300;
+  margin-top: 130px;
+  font-size: 20px;
+}
+#B {
+  font-size: 30px;
+}
+#O {
+  text-align: center;
+  font-size: 30px;
+}
+#W {
+  height: 300px;
+}
+.contenedor-1 {
+  background: goldenrod;
+  text-align: center;
+  color: rgb(255, 248, 248);
+}
+.tex1 {
+  font-size: 50px;
+  margin-top: 30px;
+}
+.back2 {
+  background: rgb(255, 255, 255);
+  margin: 60px;
+  height: 650px;
+}
+.black {
+  margin-top: 10px;
+  margin: 60px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.caja {
+  background: rgb(34, 34, 34);
+  padding: 20px;
+  margin: 20px;
+  text-align: start;
+}
+.box1 {
+  grid-column: 1/3;
+}
+.box4 {
+  grid-column: 1/3;
+}
+.box5 {
+  grid-column: 1/3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.boton2 {
+  margin: 30px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bot2 {
+  transition: all 0.7s;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.boton2 a {
+  background: black;
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.boton2 a:hover {
+  background: gold;
+  border-radius: 20px;
+}
+.footer {
+  background: rgb(255, 255, 255);
+}
+.ban1 {
+  background: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#m {
+  margin-top: 60px;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#c {
+  text-align: justify;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-top: 70px;
+  padding-bottom: 15px;
+}
+#s {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#O {
+  color: white;
+  font-size: 55px;
+}
+p {
+  text-transform: initial;
+}
+.botonn {
+  background: rgb(255, 255, 255);
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+}
+.botonn a {
+  background: black;
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: all 0.6s;
+}
+.botonn a:hover {
+  background: gold;
+  border-radius: 20px;
+}
+.ban2 {
+  background: rgba(24, 24, 23, 0.918);
+  color: white;
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  height: 450px;
+  padding-top: 50px;
+}
+.ban2 h3 {
+  font-size: 20px;
+  color: goldenrod;
+  text-transform: initial;
+  padding-top: 50px;
+}
+.boton3 {
+  text-align: center;
+  padding-top: 50px;
+  height: 30px;
+}
+.boton3 a {
+  background: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 0.6s;
+  padding: 15px;
+}
+.boton3 a:hover {
+  background: gold;
+  border-radius: 20px;
+}
+.ban3 {
+  background: rgb(255, 255, 255);
+  color: black;
+  text-align: center;
+  height: 50px;
+}
+.ban3 a {
+  color: black;
+}
+.ban3 p {
+  margin-top: 20px;
+}
+
+@media all and (max-width: 720px) {
+  .nav {
+    font-size: 25px;
+    padding: 1px;
+    margin-left: 80px;
+  }
+
+  #parrafo {
+    margin-right: 60px;
+    font-size: 70px;
+    text-align: center;
+  }
+  .bot {
+    margin-left: 260px;
+  }
+  .img1 {
+    width: 450px;
+    height: 450px;
+    margin-right: 150px;
+  }
+  .img2 {
+    width: 320px;
+    height: 320px;
+    margin-left: 200px;
+  }
+  .container-all {
+    margin-bottom: 50px;
+  }
+  .container-all p {
+    margin-top: 120px;
+  }
+  .tex1 {
+    font-size: 50px;
+  }
+  .box5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media all and (max-width: 600px) {
+  .padre {
+    width: 100%;
+  }
+  .menu {
+    height: 80px;
+  }
+  .logo img {
+    width: 150px;
+    padding: 10px;
+  }
+  .nav {
+    font-size: 25px;
+    padding: 1px;
+    margin-left: 90px;
+  }
+  .menu-items {
+    width: max-content;
+  }
+
+  #parrafo {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+  }
+  #text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .bot {
+    margin-left: 220px;
+  }
+  .img1 {
+    height: 350px;
+    width: 350px;
+    margin-right: 120px;
+  }
+  .img2 {
+    width: 270px;
+    height: 270px;
+    margin-left: 180px;
+  }
+
+  .section {
+    height: auto;
+  }
+  #p {
+    margin: 10px;
+  }
+  .articulos {
+    display: block;
+  }
+  .article {
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+  }
+  .article p {
+    padding-bottom: 8px;
+    font-size: 19px;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+  #T {
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-size: 30px;
+  }
+
+  .container-all {
+    margin-top: 30px;
+    display: block;
+  }
+
+  .container-all img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    margin-right: 150px;
+  }
+  p {
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+  #B {
+    font-size: 50px;
+  }
+  .contenedor-1 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .tex1 {
+    padding-top: 40px;
+    font-size: 30px;
+    margin: 10px;
+  }
+  .back2 {
+    height: 390px;
+  }
+  .black {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .caja {
+    margin: 5px;
+    margin-right: 10px;
+    text-align: start;
+    padding: 10px;
+    grid-column: 1/3;
+  }
+  .bot2 {
+    transition: all 0.7s;
+    padding: 10px;
+    text-align: center;
+  }
+  .boton2 a {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .boton2 a:hover {
+    background: gold;
+    border-radius: 20px;
+  }
+  .ban1 {
+    height: auto;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .ban1 p {
+    margin: 10px;
+  }
+  #c {
+    margin-bottom: 5px;
+  }
+  #s {
+    font-size: 17px;
+  }
+
+  .botonn {
+    margin-bottom: 40px;
+  }
+
+  .ban2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .ban2 p {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .ban2 h3 {
+    font-size: 25px;
+  }
+  .ban3 {
+    margin-top: 30px;
+  }
+}
+@media all and (max-width: 480px) {
+  .nav {
+    margin-left: 45px;
+  }
+  .menu-items a {
+    font-size: 15px;
+  }
+  #parrafo {
+    margin-right: 60px;
+    font-size: 45px;
+    text-align: center;
+  }
+  .bot {
+    margin-left: 160px;
+  }
+  .img1 {
+    width: 250px;
+    height: 250px;
+    margin-right: 125px;
+  }
+  .img2 {
+    width: 220px;
+    height: 220px;
+    margin-left: 130px;
+  }
+}
+@media all and (max-width: 380px) {
+  .padre {
+    width: 100%;
+  }
+  .menu {
+    height: 60px;
+  }
+  .logo img {
+    width: 150px;
+    padding: 10px;
+  }
+  .nav {
+    height: 60px;
+  }
+  .btn-menu-1 {
+    display: block;
+    line-height: 60px;
+  }
+  .menu-items {
+    position: absolute;
+    top: 60px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s;
+    flex-direction: column;
+    left: 0;
+  }
+  .menu-items li {
+    margin: 30px 0 0 0;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  .menu-items a {
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+
+  #parrafo {
+    text-align: center;
+    font-size: 40px;
+  }
+  .bot {
+    margin-left: 100px;
+  }
+  .img1 {
+    margin-top: 210px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 100%;
+  }
+
+  .img2 {
+    margin-left: 110px;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 100%;
+  }
+  #p {
+    margin: 20px;
+    font-size: 40px;
+  }
+  .section {
+    height: auto;
+  }
+  .articulos {
+    display: inline;
+  }
+  .article {
+    margin-top: 30px;
+  }
+  .article p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 10px;
+  }
+  #T {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .container-all {
+    display: block;
+  }
+  .container-all img {
+    padding-left: 30px;
+    width: 375px;
+  }
+  p {
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  #B {
+    font-size: 30px;
+  }
+  .contenedor-1 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .tex1 {
+    padding-top: 60px;
+    font-size: 30px;
+    margin: 10px;
+  }
+  .back2 {
+    height: 400px;
+  }
+  .black {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .caja {
+    margin: 5px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 10px;
+    grid-column: 1/3;
+  }
+
+  .bot2 {
+    transition: all 0.7s;
+    padding: 10px;
+    text-align: center;
+  }
+  .boton2 a {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .boton2 a:hover {
+    background: gold;
+    border-radius: 20px;
+  }
+
+  .ban1 {
+    margin: 10px;
+    height: auto;
+  }
+  .ban1 p {
+    margin: 10px;
+  }
+  .botonn {
+    margin-top: 35px;
+  }
+
+  .ban2 {
+    height: 450px;
+  }
+  .ban2 p {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .ban2 h3 {
+    font-size: 27px;
+  }
+
+  .ban3 {
+    margin-top: 30px;
+  }
+  .ban3 p {
+    font-size: 22px;
+  }
+}
